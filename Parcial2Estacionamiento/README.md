@@ -49,7 +49,7 @@ El programa permite:
 6. Mostrar total recaudado por tipo.
 7. Salir.
 
-## Colecciones utilizadas
+Colecciones utilizadas
 
 - `ArrayList<Vehiculo>` para almacenar los vehículos.
 - `HashSet<String>` para evitar placas duplicadas.
@@ -93,6 +93,7 @@ Estructura del proyecto
 
 text
 parcial2/
+
 ├── src/
 │   ├── Main.java
 │   ├── Vehiculo.java
