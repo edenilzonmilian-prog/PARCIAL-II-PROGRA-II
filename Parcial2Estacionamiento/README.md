@@ -1,12 +1,12 @@
-# Sistema de Estacionamiento - Parcial II
+Sistema de Estacionamiento - Parcial II
 
-## Descripción
+Descripción
 
 Aplicación de consola desarrollada en Java para gestionar el ingreso y control de vehículos en un estacionamiento.
 
 El sistema permite registrar vehículos, consultar información, calcular costos, buscar vehículos y mostrar los ingresos generados.
 
-## Tecnologías utilizadas
+Tecnologías utilizadas
 
 - Java
 - IntelliJ IDEA
@@ -14,7 +14,7 @@ El sistema permite registrar vehículos, consultar información, calcular costos
 - pgAdmin 4
 - GitHub
 
-## Programación orientada a objetos
+Programación orientada a objetos
 
 El proyecto utiliza:
 
@@ -25,19 +25,19 @@ El proyecto utiliza:
 - Sobrescritura de métodos (`@Override`)
 - Polimorfismo
 
-## Tipos de vehículos
+Tipos de vehículos
 
-### Automóvil
+Automóvil
 - Tarifa: Q10.00 por hora.
 
-### Motocicleta
+ Motocicleta
 - Tarifa: Q6.00 por hora.
 
-### Descuento
+ Descuento
 
 Los vehículos que permanecen más de 5 horas reciben un descuento del 10% sobre el costo total.
 
-## Funcionalidades
+Funcionalidades
 
 El programa permite:
 
@@ -55,7 +55,7 @@ El programa permite:
 - `HashSet<String>` para evitar placas duplicadas.
 - `HashMap<String, Double>` para almacenar los totales recaudados por tipo.
 
-## Validaciones
+Validaciones
 
 El sistema valida:
 
@@ -70,7 +70,7 @@ El sistema valida:
 
 También se utilizan excepciones para manejar entradas inválidas.
 
-## Base de datos
+Base de datos
 
 Se utiliza PostgreSQL con una base de datos llamada:
 
@@ -89,9 +89,9 @@ Incluye restricciones como:
 - Validación de costo mayor o igual a cero.
 - Estado activo/inactivo.
 
-## Estructura del proyecto
+Estructura del proyecto
 
-```text
+text
 parcial2/
 ├── src/
 │   ├── Main.java
